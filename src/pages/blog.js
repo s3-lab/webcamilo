@@ -7,8 +7,7 @@ function Blog() {
     return( 
         <div >
           <Header/>
-          <Titulos_hero/>
-          <h6>este es el blog je je je</h6>
+          <Titulos_hero pagina='blog'/>
     </div>
     )
 }

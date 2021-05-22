@@ -7,7 +7,7 @@ function About() {
     return( 
         <div >
           <Header/>
-          <Titulos_hero/>
+          <Titulos_hero pagina='About'/>
     </div>
     )
 }

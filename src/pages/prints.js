@@ -7,8 +7,7 @@ function Prints() {
     return( 
         <div >
           <Header/>
-          <Titulos_hero/>
-          <h6>estamos en prints vite ! je je je</h6>
+          <Titulos_hero pagina='prints'/>
     </div>
     )
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './Header.scss';
 
 
-function Header({titulo}) {
+function Header() {
 
 
 
@@ -19,11 +19,11 @@ function Header({titulo}) {
                 </Link>
 
                 <nav class="navegacion">
-                    <Link to='/works'><a href="" class="navegacion__enlace">Works</a></Link>
-                    <Link to='/blog'><a href="" class="navegacion__enlace">Blog</a></Link>
-                    <Link to='/prints'><a href="" class="navegacion__enlace">Prints</a></Link>
-                    <Link to='/about'><a href="" class="navegacion__enlace">About</a></Link>
-                    <Link to='/contact'><a href="" class="navegacion__enlace">Contact</a></Link>
+                    <Link to='/works' class="navegacion__enlace">Works</Link>
+                    <Link to='/blog' class="navegacion__enlace">Blog</Link>
+                    <Link to='/prints' class="navegacion__enlace">Prints</Link>
+                    <Link to='/about' class="navegacion__enlace">About</Link>
+                    <Link to='/contact' class="navegacion__enlace">Contact</Link>
                 </nav>
             </div>
         </div>
