@@ -1,0 +1,37 @@
+@import '../styles/index';
+
+
+.header {
+    height: 6rem;
+    margin-top: 3rem;
+
+    .logo{
+        font-weight: 900;
+        color: #000000;
+    }
+    .navegacion__enlace{
+        display: block;
+        font-family: $fuenteHeading;
+        text-align: center;
+        font-size: 1.4rem;
+        color: var(--negro2)
+    }
+    .barra{
+        z-index: 1;
+    }
+} 
+
+
+@media (min-width: 768px) {
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+    .barra {
+        display: flex; /* Se coloca un elemento frente al otro (logo y nav) en el contenedor de barra */ 
+        justify-content: space-between; /* separa los elementos y los coloca en los extremos */
+        align-items: center;
+    }
+
+
+}
