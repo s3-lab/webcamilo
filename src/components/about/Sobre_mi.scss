@@ -1,0 +1,15 @@
+@import "../styles/index";
+@import "../styles/screen.scss";
+
+.contenedor__entrada {
+  .about {
+    @include tablet {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 1rem;
+    }
+    .about__imagen {
+      width: 100%;
+    }
+  }
+}

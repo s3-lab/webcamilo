@@ -2,91 +2,95 @@
 
 @forward "sass:root";
 
-
-$fuenteHeading: 'Karla', sans-serif;
-$fuenteParrafos: 'Playfair Display', serif;
+$fuenteHeading: "Karla", sans-serif;
+$fuenteParrafos: "Playfair Display", serif;
 
 $azul: #004e92;
-$gris: #E0E0E0;
-$grisoscuro:  #929199;
+$gris: #e0e0e0;
+$grisoscuro: #929199;
 $blanco: #ffffff;
 $negro: #000000;
 $negro2: #2d2e2f;
 
 html {
-    box-sizing: border-box; /* border y el padding no afecte el ancho de los elementos */
-    font-size: 62.5%;  /* 1rem = 10px */
+  box-sizing: border-box; /* border y el padding no afecte el ancho de los elementos */
+  font-size: 62.5%; /* 1rem = 10px */
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 body {
-    font-family: $fuenteParrafos;
-    font-size: 1.6rem;
-    line-height: 2;
+  font-family: $fuenteParrafos;
+  font-size: 1.6rem;
+  line-height: 2;
 }
-
 
 /* globales */ /* lo que se va autilizar más de una vez es mejor tenerlo en globales */
 .contenedor {
-    max-width: 120rem;  
-    width: 90%; /* te permite tener un margen al texto al hacer resize y ver el responsive */
-    margin: 0 auto; /* mantener centrado el contenido por que no va a tener un displayflex */
+  max-width: 120rem;
+  width: 90%; /* te permite tener un margen al texto al hacer resize y ver el responsive */
+  margin: 0 auto; /* mantener centrado el contenido por que no va a tener un displayflex */
 }
 
-.contenedor__entrada{
-        max-width: 120rem;  
-        width: 90%; /* te permite tener un margen al texto al hacer resize y ver el responsive */
-        margin: 0 auto; /* mantener centrado el contenido por que no va a tener un displayflex */
-        margin-top: 2rem;
-    }
-
+.contenedor__entrada {
+  max-width: 120rem;
+  width: 90%; /* te permite tener un margen al texto al hacer resize y ver el responsive */
+  margin: 0 auto; /* mantener centrado el contenido por que no va a tener un displayflex */
+  margin-top: 2rem;
+}
 
 @media (min-width: 768px) {
-    .contenedor__entrada{
-        max-width: 120rem;  
-        width: 50%; /* te permite tener un margen al texto al hacer resize y ver el responsive */
-        margin: 0 auto; /* mantener centrado el contenido por que no va a tener un displayflex */
-
-}
-}
-
-a{
-    text-decoration: none;
+  .contenedor__entrada {
+    max-width: 120rem;
+    width: 70%; /* te permite tener un margen al texto al hacer resize y ver el responsive */
+    margin: 0 auto; /* mantener centrado el contenido por que no va a tener un displayflex */
+  }
 }
 
-h1,h2,h3,h4,h5 {  /* sistemas de fuentes y tamaño */
-    font-family: $fuenteParrafos;
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /* sistemas de fuentes y tamaño */
+  font-family: $fuenteParrafos;
 }
 h1 {
-    font-size: 4.8rem;
+  font-size: 4.8rem;
 }
 h2 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 h3 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
-h4{ 
-    font-size: 2.2rem;
+h4 {
+  font-size: 2.2rem;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 #img-carrito {
-    padding-top: 3rem;
-    max-width: 300%;
+  padding-top: 3rem;
+  max-width: 300%;
 }
 
 /* no utilidades */
-.no-margin {     /* eliminar los margenes que aplica el navegador */  
-    margin: 0;
+.no-margin {
+  /* eliminar los margenes que aplica el navegador */
+  margin: 0;
 }
-.no-padding{
-    padding: 0;
+.no-padding {
+  padding: 0;
 }
-.centrar-texto{
-    text-align: center;
+.centrar-texto {
+  text-align: center;
 }

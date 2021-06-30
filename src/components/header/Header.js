@@ -10,20 +10,19 @@ function Header() {
     //Se coloca código estandar de javascrip en este espacio
 
     return( /* html en este espacio y { codigo js entre corchetes } */
-        <header class="header" >
-            <div class="contenedor">
-            <div class="barra">
-                <Link to='/home'><a class="logo" href="index.html">
-                <h1 class="no-margin centrar-texto">C</h1>
-                </a>
+        <header className="header" >
+            <div className="contenedor">
+            <div className="barra">
+                <Link to='/home' className="logo">
+                <h1 className="no-margin centrar-texto">C</h1>
                 </Link>
 
-                <nav class="navegacion">
-                    <Link to='/works' class="navegacion__enlace">Works</Link>
-                    <Link to='/blog' class="navegacion__enlace">Blog</Link>
-                    <Link to='/prints' class="navegacion__enlace">Prints</Link>
-                    <Link to='/about' class="navegacion__enlace">About</Link>
-                    <Link to='/contact' class="navegacion__enlace">Contact</Link>
+                <nav className="navegacion">
+                    <Link to='/works' className="navegacion__enlace">Works</Link>
+                    <Link to='/blog' className="navegacion__enlace">Blog</Link>
+                    <Link to='/prints' className="navegacion__enlace">Prints</Link>
+                    <Link to='/about' className="navegacion__enlace">About</Link>
+                    <Link to='/contact' className="navegacion__enlace">Contact</Link>
                 </nav>
             </div>
         </div>

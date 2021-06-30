@@ -1,0 +1,50 @@
+ [
+        {
+            "id":1,
+            "blog_category":"Foto reportaje",
+            "blogTitle":"Mi viaje a perú",
+            "postedOn": "Enero 30, 2021",
+            "blogImage":"img/blog1.jpg",
+            "blogText":"Los caminos de herradura que articulaban a Jujuy con otros espacios, cercanos y lejanos, eran innumerables; no obstante pocos de ellos eran usados para el transporte de animales cargados..."
+     },
+        {
+            "id":2,
+            "blog_category":"Moda",
+            "blogTitle":"Mi viaje a perú",
+            "postedOn": "Enero 30, 2021",
+            "blogImage":"img/blog2.jpg",
+            "blogText":"Los caminos de herradura que articulaban a Jujuy con otros espacios, cercanos y lejanos, eran innumerables; no obstante pocos de ellos eran usados para el transporte de animales cargados..."
+     },
+        {
+            "id":3,
+            "blog_category":"Vivencias",
+            "blogTitle":"Mi viaje a perú",
+            "postedOn": "Enero 30, 2021",
+            "blogImage":"img/blog3.jpg",
+            "blogText":"Los caminos de herradura que articulaban a Jujuy con otros espacios, cercanos y lejanos, eran innumerables; no obstante pocos de ellos eran usados para el transporte de animales cargados..."
+     },
+        {
+            "id":4,
+            "blog_category":"Lifestyle",
+            "blogTitle":"Mi viaje a perú",
+            "postedOn": "Enero 30, 2021",
+            "blogImage":"img/blog4.jpg",
+            "blogText":"Los caminos de herradura que articulaban a Jujuy con otros espacios, cercanos y lejanos, eran innumerables; no obstante pocos de ellos eran usados para el transporte de animales cargados..."
+     },
+        {
+            "id":5,
+            "blog_category":"Moda",
+            "blogTitle":"Mi viaje a perú",
+            "postedOn": "Enero 30, 2021",
+            "blogImage":"img/blog5.jpg",
+            "blogText":"Los caminos de herradura que articulaban a Jujuy con otros espacios, cercanos y lejanos, eran innumerables; no obstante pocos de ellos eran usados para el transporte de animales cargados..."
+     },
+        {
+            "id":6,
+            "blog_category":"Moda",
+            "blogTitle":"Mi viaje a perú",
+            "postedOn": "Enero 30, 2021",
+            "blogImage":"img/blog6.jpg",
+            "blogText":"Los caminos de herradura que articulaban a Jujuy con otros espacios, cercanos y lejanos, eran innumerables; no obstante pocos de ellos eran usados para el transporte de animales cargados..."
+     }
+    ]

@@ -1,0 +1,1 @@
+export const urlApiProducts = "https://my-json-server.typicode.com/s3-lab/blogcamo/blogs";

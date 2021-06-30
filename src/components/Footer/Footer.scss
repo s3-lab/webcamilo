@@ -1,0 +1,21 @@
+@import "../styles/index";
+
+.footer {
+  background-color: $negro2;
+  padding: 3rem;
+  margin-top: 4rem;
+  .logo {
+    font-weight: 900;
+    color: #000000;
+  }
+  .navegacion__enlace {
+    display: block;
+    font-family: $fuenteHeading;
+    text-align: center;
+    font-size: 1.4rem;
+    color: $gris;
+  }
+  .barra {
+    z-index: 1;
+  }
+}
